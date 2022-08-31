@@ -1,0 +1,44 @@
+.rule-setting {
+    margin: 1em 0 0.5rem;
+    .rule-item {
+        display: flex;
+        align-items: flex-start;
+        & + .rule-item {
+            margin-top: 12px;
+        }
+        .rule-item-info {
+            margin-left: 16px;
+            .rule-item-title {
+                font-weight: bold;
+            }
+            .rule-item-desc {
+                font-size: 12px;
+                line-height: 1.4em;
+                margin-top: 6px;
+                color: #aaa;
+            }
+        }
+    }
+}
+.board-setting{
+    display: flex;
+    .board-item {
+        display: flex;
+        align-items: flex-start;
+        & + .board-item {
+            margin-left: 20px;
+        }
+        .board-item-info {
+            margin-left: 16px;
+            .board-item-title {
+                font-weight: bold;
+            }
+            .board-item-desc {
+                font-size: 12px;
+                line-height: 1.4em;
+                margin-top: 6px;
+                color: #aaa;
+            }
+        }
+    }
+}

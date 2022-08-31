@@ -1,0 +1,37 @@
+.nav {
+    margin-bottom: 20px;
+
+    .actions {
+        display: flex;
+        margin: 12px 0;
+        align-items: center;
+
+        .leftBtn {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .title {
+            font-size: 1rem;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .show-rules {
+            margin-left: auto;
+            cursor: pointer;
+        }
+    }
+
+    .rule {
+        color: #aaa;
+        font-size: 0.8em;
+        text-align: right;
+    }
+}
